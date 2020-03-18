@@ -8,9 +8,4 @@ os.sistem("mv storage/downloads/VkBot/* .")
 os.system("rm installer.sh")
 os.system("rm installer.py")
 os.system(cl)
-in = input("ЗАПУСТИТЬ БОТА? (Y/n)")
-if in.lower() == "in":
-    os.system("python bot.py")
-else:
-    os.system(cl)
-    os.system("ls")
+os.system("python bot.py")

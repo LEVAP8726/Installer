@@ -1,4 +1,4 @@
-pkg update -y && PKG upgrade -y
+pkg update -y && pkg upgrade -y
 pkg install python
 python installer.py
 

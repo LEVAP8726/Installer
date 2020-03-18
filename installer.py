@@ -11,3 +11,6 @@ os.system(cl)
 in = input("ЗАПУСТИТЬ БОТА? (Y/n)")
 if in.lower() == "in":
     os.system("python bot.py")
+else:
+    os.system(cl)
+    os.system("ls")
